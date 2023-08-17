@@ -1,0 +1,72 @@
+<!-- 
+
+    INSERT MIT LICENCE HERE
+
+ -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script & Go | Le codage a la demande de Rhino Games n'a jamais été aussi simple !</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Logo -->
+    <link rel="icon" href="media/logo/RhinoPFP.png">
+</head>
+<body>
+    <div style="display: block;" id="mainDiv" class="main">
+        <br>
+        <img style="border-radius: 15px;" height="100px" width="100px" src="media/logo/RhinoPFP.png" alt="Rhino logo">
+        <h1>Rhino Games</h1>
+        <h1 style="margin-top: -15px;">Script & Go</h1>
+        <a href="licence" target="_blank"><h4>By Cipriyo, For Rhino Games</h4></a>
+        <h6>Merci de répondre a toutes les question non optionelle en anglais sinon votre demande sera refusée !</h6>
+        <h6>Les script serons coder un luau (code de roblox).</h6>
+        <input id="first" type="text" placeholder="Votre demande de script ( un script qui... ) :">
+        <h3>Option suplémentaire :</h3>
+        <h4>Faut-il obfuscater le script :</h4>
+        <select name="Bonjour" id="obfuscate">
+            <option value="no" selected>Non je ne veux pas l'obfuscate !</option>
+            <option value="yes">Oui je veux l'obfuscate</option>
+        </select>
+        <h6 class="comment">L'obfuscation d'un script sert a le rendre lisible par une machine mais pas par un humain. C'est un sécuriter qui fait en sorte que le code est non-modifiable sauf si une sauvegarde avant obfuscation a été faite.</h6>
+        <h4>Faut-il protéger le script pour qu'il ne marche que sur certain(s) jeu(x) ? :</h4>
+        <select name="Bonjour" id="protect">
+            <option value="no" selected>Non pas besoin.</option>
+            <option value="yes">Oui ça fera une sécuritée en plus.</option>
+        </select>
+        <h4>Si oui pouvez vous donner les identifiant(s) des jeux autoriser a faire marcher le script  ( mettre un '+' pour séparer de identifiants de jeux ) ?</h4>
+        <input id="gameid" type="Number" placeholder="Entrez ici les ou l'identifiant(s) :">
+        <br><br><br>
+        <input id="comment" type="text" placeholder="Commentaire en plus a ajouter :">
+        <h6 class="comment">Rajouter un commentaire pour nous aider a code votre script.</h6>
+        <br>
+        <h3>Entrez ici votre spedo Discord (avec ou sans le # si vous utiliser le nouveau système de nom d'utilisateur) pour vous tenir au courant d'un problème.</h3>
+        <input id="dizzy_name" type="text" placeholder="Nom d'utilisateur Discord :">
+        <br><br><br>
+        <input id="valided" type="checkbox" name="valided">
+        <h4>Validez-vous vos choix pour povoir envoyer ? Si oui cochez le case si dessus !</h4>
+        <button id="sembit" style="background-color: green; border: none; border-radius: 15px; height: 50px; width: 100px; font-size: 17px;">Envoyer ➡️</button>
+        <br><br>
+        <a href="licence" target="_blank"><h4>By Cipriyo, For Rhino Games</h4></a>
+        <br>
+    </div>
+
+    <div id="endDiv" style="display: none; background-color: white; width: 400px; margin: 0 auto; height: auto; border-radius: 15px;" class="end">
+        <br>
+        <img style="border-radius: 15px;" height="100px" width="100px" src="media/logo/RhinoPFP.png" alt="Rhino logo">
+        <h1 id="azerty">Votre demande a été envoyée !</h1>
+        <h2 id="qwerty">Merci d'utiliser nos service !</h2>
+        <br><br>
+        <a href="licence" target="_blank"><h4>By Cipriyo, For Rhino Games</h4></a>
+        <br>
+    </div>
+
+    <!-- JS -->
+    <script src="index.js"></script>
+</body>
+</html>

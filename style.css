@@ -1,0 +1,43 @@
+/* 
+
+    INSERT MIT LICENCE HERE
+
+*/
+
+@font-face {
+    font-family: "DefaultA";
+    src: url(media/font/NotoSans-Regular.ttf);
+}
+
+* {
+    font-family: "DefaultA", sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    height: auto;
+    width: 400px;
+}
+
+input {
+    text-align: start;
+    height: 50px;
+    width: 300px;
+}
+
+.comment {
+    margin-top: 5px;
+}
+
+select {
+    height: 50px;
+    width: 310px;
+}
