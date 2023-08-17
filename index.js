@@ -37,8 +37,8 @@ if (WebsiteLockdown == true) {
     main_frame.style.display = "none"
     end_frame.style.display = "block"
     
-    lockdown_txt_1.textContent = "Le site a été vérouiller !"
-    lockdown_txt_2.textContent = "Merci de revenir plus tard et de suivre le status de ce service sur le Discord !"
+    lockdown_txt_1.textContent = "The site has been locked!"
+    lockdown_txt_2.textContent = "Please come back later and follow the status of this service on the Discord!"
 }
 
 ValidedCheck.addEventListener('change', () => {
