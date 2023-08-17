@@ -139,9 +139,7 @@ function ReallySendWebhook() {
     }
     request.send(JSON.stringify(Content))
 
-    // Remplacer ceci par la méthode du webhook
-    alert('Les chose suivante serons une prévisualisation avant que les webhook marche.')
-    alert('Demande : ' + firstquestion.value + ', obfuscate (demander a Cipriyo pour ceci) ? : ' + wehavetoobfuscate.value + ', faut-il faire en sorte que le script marche seulement sur certain je ? : ' + can_be_use_only_in_one_game.value + ", si la question d'avant est sur yes quel identifiant de jeu sont autoriser a executer ce script ? (un point signifie la séparation entre deux identifiants de jeux) : " + game_id.value + ', un commentaire a ajouter ? : ' + final_comment.value + ', nom dutilisateur Discord de la personne qui a envoyer la demande : ' + discord_name.value)
+   
     ShowEndScreen()
 }
 
