@@ -163,28 +163,22 @@ function ReallySendWebhook() {
     ShowEndScreen()
 }
 
-if (document == null) or (document == isvalided); {
-    console.dir(document)
-} {
-    console.log('Ayo pizza here')
-}
-
 function phase2() {
     var STOP = false
 
     if (firstquestion.value == "") {
-        alert('Merci de nous dire dans la première question quoi coder!')
+        alert('Please tell us in the first question what to code!')
         STOP = true
     }
     if (STOP == false) { // la suite
         if (can_be_use_only_in_one_game.value == "yes") {
             if (game_id.value == null) {
                 STOP = true
-                alert('Merci de rentrez un identifiant de jeu(x) valide!')
+                alert('Please enter a valid game ID(s)!')
             }
         }
         if (discord_name.value == "") {
-            alert("Merci d'entrez votre nom d'utilisateur Discord pour un suivi de votre demande !")
+            alert("Please enter your Discord username to track your request!")
             STOP = true
         }
         if (STOP == false) {
