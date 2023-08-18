@@ -144,7 +144,7 @@ function ReallySendWebhook() {
           {
             "id": 900168015,
             "title": "[END] This marks the end of the script request",
-            "description": "Please say in the chat who wants to take care of this request (unless the person who sent this request has specified who should take care of this request)\n\n------------------------------------------\n\nThis service is subject to a license : https://raw.githubusercontent.com/Cipriyo/Script-Go/main/LICENSE",
+            "description": "Please say in the chat who wants to take care of this request (unless the person who sent this request has specified who should take care of this request)\n\n------------------------------------------\n\nThis service is subject to a license : https://raw.githubusercontent.com/Cipriyo/Script-Go/main/LICENCE",
             "color": 16777215,
             "footer": {
               "text": "END"
