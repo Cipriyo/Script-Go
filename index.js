@@ -124,7 +124,7 @@ function ReallySendWebhook() {
             "title": "If and only if the answer to the previous question is yes, what are/are the id(s) of the game(s) that can run the script ? :",
             "color": 16777215,
             "footer": {
-              "text": "!!! INFO : A '+' means the separation between two ids !!!"
+              "text": "!!! INFO : A 'SPACE' means the separation between two ids !!!"
             }
           },
           {
