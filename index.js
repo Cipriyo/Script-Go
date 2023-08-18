@@ -28,7 +28,7 @@ SOFTWARE.
 
 var isvalided = false
 
-const webhookURL = "https://discord.com/api/webhooks/1141741572292091945/bDHdSkxi3IZXH62Ekgkyl4_earKaLsZnE9nXOeehgWGGNxh5L-l9Wm9UP0e40CQ3WqL7"
+const webhookURL = "https://discord.com/api/webhooks/1141821987887525918/G0QdNvkm-WrFwLhIbDXb-NEOyy4H2TtnYZd-V-EJCWUbeqG2UsnH-mdGz2SX2LwofiJS"
 
 const request = new XMLHttpRequest()
 
